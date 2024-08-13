@@ -1,18 +1,19 @@
 
 .inicio-secion-contacto {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
-    padding-top: 30px; /* Opcional: Añade un poco de espacio en la parte superior */
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    padding-top: auto; 
 }
 
+
 form {
-    margin: 0 auto; /* Centra horizontalmente */
-    width: 300px; /* Ancho fijo opcional para el formulario */
+    margin: 0 auto; 
+    width: 300px; 
     padding: 20px;
-    background-color: #f8f9fa; /* Opcional: Fondo para el formulario */
-    border-radius: 8px; /* Opcional: Bordes redondeados */
+    background-color: #f8f9fa; 
+    border-radius: 8px; 
 }
 
 

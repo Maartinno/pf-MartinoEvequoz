@@ -15,17 +15,24 @@
 
 .card-index img{
     padding: 15px;
+
 }
 
 .main-index-title{
-    margin-bottom: 40px; /* Espacio debajo del título principal */
+    margin-bottom: 40px;
     font-size: 100px;
     color: #fff;
     text-align: center;
 }
 .main-index{
-    text-align: center; /* Centra todo el texto dentro de este contenedor */
+    text-align: center; 
     padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
 }
 
 .main-index-card-text{
@@ -35,4 +42,25 @@
 
 .main-index-text{
     color: #fff;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 900px) {
+    .card-index {
+        flex: 1 1 100%; 
+        max-width: 100%;
+    }
+
+    .main-index-text {
+        text-align: center;
+        margin: 20px;
+        
+    }
+    .main-index-card-text{
+        font-size: 100%;
+    }
+    .card-index img{
+        height: 300px;
+        width: 300px;
+    }
 }

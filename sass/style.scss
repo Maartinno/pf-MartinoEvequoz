@@ -7,29 +7,21 @@
 @import "./layout/main-servicios";
 @import "./layout/footer";
 
-.m-contacto{
-background-image: url("../assets/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
-background-size: cover;
-background-position: center;
-}
 
-.main-acercade{
+main{   
     background-image: url("../assets/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 }
-
-.main-index{
-    background-image: url("../assets/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+.all-title{
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 50px;
 }
 
-.main-servicios{
-    background-image: url("../assets/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+main{
+    margin-top: 80px;
 }
+

@@ -1,40 +1,74 @@
 .father-cards-products {
     display: flex;
-    align-items: center; /* Alinea los elementos verticalmente */
-    justify-content: space-between; /* Espacia el título y la card */
-    margin-bottom: 40px; /* Añade espacio entre secciones */
+    align-items: center; 
+    justify-content: space-between; 
+    margin-bottom: 40px; 
     max-width: 80%;
-    margin: auto; /* Añade espacio alrededor del contenedor y centra */
-    padding: 20px; /* Espacio interno dentro del contenedor */
+    margin: auto; 
+    padding: 20px;
     gap: 20px;
 }
 
 .card-wrapper {
     display: flex;
-    flex-direction: column; /* Asegura que el título esté encima de la card */
-    align-items: center; /* Centra todo horizontalmente */
+    flex-direction: column; 
+    align-items: center; 
     width: 100%;
 }
 
 .text-products {
-    text-align: center; /* Centra el texto del título */
-    margin-bottom: 10px; /* Espacio debajo del título */
-    font-weight: bold; /* Asegura que el título sea prominente */
+    text-align: center; 
+    margin-bottom: 10px; 
+    font-weight: bold; 
 }
 
 .card {
-    flex: 1; /* Permite que la card ocupe el espacio disponible */
-    max-width: 45rem; /* Ajusta el tamaño de la card */
-    margin-bottom: 20px; /* Espacio debajo de cada card */
+    flex: 1; 
+    max-width: 45rem; 
+    margin-bottom: 20px; 
 }
+
 
 .card img {
     height: auto;
     width: 100%;
-    border-radius: 8px; /* Opcional: bordes redondeados */
+    border-radius: 8px; 
 }
 
 .text-products{
     color: #fff;
 
+
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 1150px) {
+    .father-cards-products {
+        flex: 1 1 100%; /* Toma todo el ancho del contenedor en pantallas pequeñas */
+        max-width: 100%;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        height: 50px;
+        width: 50px;
+    }
+    .card-text{
+        font-size: 90%;
+    }
+}
+@media (max-width: 860px) {
+    .father-cards-products {
+        flex: 1 1 100%; /* Toma todo el ancho del contenedor en pantallas pequeñas */
+        max-width: 100%;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        height: 50px;
+        width: 50px;
+    }
+    .card-text{
+        font-size: 50%;
+    }
 }
