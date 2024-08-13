@@ -1,0 +1,50 @@
+.footer{
+    background-color: black;
+}
+
+.footer {
+    background-color: black;
+    padding: 20px 0; /* Añade un poco de espacio arriba y abajo */
+    text-align: center; /* Centra el texto */
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 14px; /* Ajusta el tamaño del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 0; /* Elimina márgenes */
+}
+
+.footer-text .contact-link {
+    color: #357de8; /* Color del enlace */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.footer-text .contact-link:hover {
+    text-decoration: underline; /* Agrega subrayado al pasar el mouse */
+}
+
+.f-elementos {
+    display: flex;
+    justify-content: center; /* Centra el texto */
+    align-items: center; /* Alinea verticalmente todos los elementos */
+    position: relative;
+}
+
+.footer-text {
+    margin: 0;
+    text-align: center;
+    flex: 1; /* Esto permite que el texto ocupe todo el espacio disponible */
+}
+
+.social-icons {
+    position: absolute;
+    right: 20px; /* Alinea las imágenes a la derecha del contenedor */
+    display: flex;
+    gap: 10px; /* Espacio entre las imágenes */
+}
+
+.social-icons img {
+    width: 24px; /* Ajusta el tamaño de las imágenes si es necesario */
+    height: 24px;
+}

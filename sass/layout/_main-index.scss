@@ -1,0 +1,38 @@
+.card-index{
+    border-radius: 20px;
+    background-color: rgb(52, 52, 186);
+    width: 90%;
+    padding: 15 10 15 10;
+    margin: auto;
+    height: 350px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 3.125rem;
+
+}
+
+.card-index img{
+    padding: 15px;
+}
+
+.main-index-title{
+    margin-bottom: 40px; /* Espacio debajo del título principal */
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+}
+.main-index{
+    text-align: center; /* Centra todo el texto dentro de este contenedor */
+    padding: 40px 20px;
+}
+
+.main-index-card-text{
+    color:#fff;
+
+}
+
+.main-index-text{
+    color: #fff;
+}

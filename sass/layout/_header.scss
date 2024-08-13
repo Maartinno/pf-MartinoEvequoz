@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header{
+    background-color: black;
+
+}
+
+.header img{
+    height: 3.125rem;
+    width: 3.125rem;
+
+}

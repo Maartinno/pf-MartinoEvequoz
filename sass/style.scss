@@ -5,3 +5,31 @@
 @import "./layout/main-acercade";
 @import "./layout/main-productos";
 @import "./layout/main-servicios";
+@import "./layout/footer";
+
+.m-contacto{
+background-image: url("../assets/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.main-acercade{
+    background-image: url("../assets/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main-index{
+    background-image: url("../assets/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main-servicios{
+    background-image: url("../assets/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
